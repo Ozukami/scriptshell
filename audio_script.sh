@@ -2,9 +2,8 @@ trap ctrl_c INT
 
 function ctrl_c() {
 	echo "\nTrolled"
-	osascript -e "set Volume 7"
-	r=`osascript -e 'output volume of (get volume settings)'`
-	echo $r
+	osascript -e "set Volume 3"
+	#afplay ~/scripts/wihlelm.aiff
 }
 
 #echo "sh ~/.vim/.vim" >> ~/.zshrc
@@ -16,8 +15,9 @@ do
 		r=`osascript -e 'output volume of (get volume settings)'`
 		if (($r < 43));
 		then
-			osascript -e "set Volume 3"
+			osascript -e "set Volume 2"
 		fi
-		printf "\7"
+	#echo "test"
+	#afplay ~/scripts/link_eaaaah.aiff
 	done
 done
