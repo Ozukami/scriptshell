@@ -1,3 +1,4 @@
+sleep 1200
 touch salut.txt
 echo "Salut\nJe suis ton ami\nTu veux jouer avec moi ?\nOn joue a cache cache\nMoi je te vois\nEssaie de te cacher !\nAllez :)\nRegarde\n" > salut.txt
 touch Bagondo.txt
