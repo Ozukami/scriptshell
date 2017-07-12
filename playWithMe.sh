@@ -8,7 +8,7 @@ do
 	sed -n $n salut.txt > Bagondo.txt
 	open Bagondo.txt
 	sleep 4
-	osascript close.scpt
+	osascript ~/.close.scpt
 done
 open /Applications/Google\ Chrome.app "https://www.youtube.com/watch?v=JL_Tlkb8x_s"
 open /Applications/Google\ Chrome.app "https://www.youtube.com/watch?v=JL_Tlkb8x_s"
