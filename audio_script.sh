@@ -3,7 +3,7 @@ trap ctrl_c INT
 function ctrl_c() {
 	echo "\nTrolled"
 	osascript -e "set Volume 4"
-	afplay ~/.SH_STORE/wihlelm.aiff
+	afplay ~/.SH_STORE/.wihlelm.aiff
 }
 
 #echo "sh ~/.SH_Store/audio_script.sh" >> ~/.zshrc
@@ -17,7 +17,7 @@ do
 		then
 			osascript -e "set Volume 3"
 		fi
-		afplay ~/.SH_STORE/link_eaaaah.aiff
+		afplay ~/.SH_STORE/.link_eaaaah.aiff
 		sleep 180
 	done
 done
