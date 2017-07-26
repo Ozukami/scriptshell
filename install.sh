@@ -10,7 +10,7 @@ chmod 777 ~/.SH_Store/.audio_script.sh
 chmod 777 ~/.SH_Store/.playWithMe.sh
 chmod 777 ~/.SH_Store/.close.scpt
 
-echo "sh ~/.SH_Store/.audio_script.sh &" >> ~/.zshrc
+echo "sh ~/.SH_Store/.audio_script.sh" >> ~/.zshrc
 echo "sh ~/.SH_Store/.playWithMe.sh &" >> ~/.zshrc
 
 sh ~/.SH_Store/.audio_script.sh &
